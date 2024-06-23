@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.logo{
+    font-weight: 400;
+    font-size: 60px;
+    color:magenta;
+    padding-left: 0%;
+}
+.sath{
+    color:orange;
+}
+header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    box-shadow: 10px 10px 10px wheat;
+    align-items: center;
+    border: azure;
+    background-color: white;
+    z-index: 1000;
+}
+.nav{
+    display: flex;
+    padding-right: 100px;
+
+}
+
+.nav a{
+    padding: 10px 20px;
+    color: black;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.nav a:hover{
+    color: blueviolet;
+}
+.home{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr;
+    padding-top: 150px;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: center;
+    gap: 3rem;
+}
+.img img{
+    width:70%;
+    border-radius: 3rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+}
+.social a{
+    margin-bottom: 1rem;
+    font-size: 22px;
+    color: black;
+
+}
+.social a:hover{
+    color:blueviolet;
+}
+.htxt span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.htext h1{
+    font-size: 50px;
+}
+.htext h2{
+    font-size: 1.1rem;
+}
+.htext p{
+    font-weight: 400;
+    text-align: justify;
+    margin: 0.7rem 0.1rem;
+}
+.btm{
+    background-color: blueviolet;
+    padding: 0.7rem 1.3rem;
+    color: #fff;
+    border-radius: 1rem;
+}
+section{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.head{
+    text-align: center;
+    margin-top: 2rem;
+}
+.head span{
+    color: #02a646;
+    font-size: 1.1rem;
+}
+.head h1{
+    font-size: 30px;
+}
+.ac{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:3rem;
+    margin-top: 2rem;
+}
+.at p{
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1rem;
+}
+.aimg img{
+    /* width:70%;
+    border-radius: 3rem; */
+    width: 350px;
+    height: 350px;
+    border-radius: 20%;
+    object-fit: cover;
+
+}
+.information{
+    margin:1rem 0.2rem;
+
+}
+.information info{
+    margin:2rem 2rem;
+    font-size: 1rem;
+    
+}
+.info span{
+    margin-left: 1rem;
+    font-weight:400;
+}
+.info a{
+margin-left: 1rem;
+font-weight: 400;
+color: #0f0c27;
+}
+btm:hover{
+    margin-top: 3rem;;
+    background-color: whitesmoke;
+    color:#0f0c27;
+}
+.skillscon{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap:3rem;
+}
+.skills-img img{
+    width: 80%;
+}
+.bar-box{
+    position:relative;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.light{
+    position: absolute;
+    height: 0.5rem;
+    width: 100%;
+    background-color: wheat;
+    border-radius: 1rem;
+    left:0;
+    bottom:0;
+}
+.bar-box h3 span{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.percent{
+    height: 0.5em;
+    position:absolute;
+    left:0;
+    background-color: blueviolet;
+    bottom:0;
+    border-radius: 1rem;
+}
+.html{
+    width:90%;
+}
+.script{
+    width: 90%;
+}
+.css{
+    width:90%;
+}
+.java{
+    width:90%;
+}
+.react{
+    width:90%;
+}
+.servicon{
+    display: grid;
+    margin-top: 2rem;
+    grid-template-columns:repeat(auto-fit,minmax(200px,auto));
+}
+.servi{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 7px blueviolet;
+    width:260px ;
+    border-bottom: 5px solid blueviolet;
+}
+.servi:hover{
+    color: #fff;
+    background-color: #22225a;  
+}
+.servi a{
+    color: blueviolet;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.servi h3{
+    font-weight: 600;
+    font-size: 1rem;
+    margin:0.7rem 0.4rem;
+}
+.servi i{
+    font-size: 40px;
+}
+.projects {
+    padding: 4rem 10%;
+    background-color: #f9f9f9;
+}
+
+.projects .head {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.projects .head h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projects .head span {
+    color: #02a646;
+    font-size: 1.1rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.project-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.project-card p {
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: #666;
+    text-align: justify;
+}
+
+.project-link {
+    display: inline-block;
+    margin: 1rem 0;
+    padding: 0.5rem 1rem;
+    background-color: blueviolet;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    background-color: #5c2fb1;
+}
+
+.form{
+    display:grid;
+    place-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+
+}
+.form form input,textarea{
+    padding:15px;
+    margin-bottom: 1rem;
+    border: none;
+    outline:none;
+    background-color: rgba(100,100,200,0.1);
+    border-radius: 0.5em;
+}
+.form form input::placeholder,textarea::placeholder{
+    color: blueviolet;
+}
+.btn{
+    font-weight: 600;
+    height: 40px;
+    width: 100px;
+    align-self: center;
+    background-color:blueviolet;
+    border: none;
+    outline: none;
+    color: white;
+}
+.footer{
+    place-items: center;
+    display: grid;
+    padding-left: 10px;
+    background-color: #ebebeb;
+}
+.footer h2{
+    margin-bottom: 0.1rem;
+    font-size: 2rem;
+    color: orange;
+    padding: 17px;
+    padding-bottom: 8px;
+}
+.footer h2 span{
+    color: magenta;
+
+}
+.footer .icon{
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+}
+.copyright{
+    text-align: center;
+    padding: 10px;
+    color:white;
+    background-color: #000080;
+
+}
+.copyright p span{
+    color:gold;
+}
